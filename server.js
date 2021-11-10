@@ -60,4 +60,4 @@ class Forecast {
   }
 }
 
-app.listen(3000, () => console.log(`I am a server that is listening on port:${PORT}`));
+app.listen(PORT, () => console.log(`I am a server that is listening on port:${PORT}`));
