@@ -42,10 +42,10 @@ function handleGetWeather(req, res) {
       console.log(forecastArray);
       res.status(200).send(forecastArray);
     } else {
-      res.statues(404).send('city not found');
+      res.status(404).send('city not found');
     }
   } catch (err) {
-    res.status(500).send('servor error');
+    res.status(500).send('this is a goofy message');
   }
 }
 
