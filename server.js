@@ -8,7 +8,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const weather = require('./data/weather.json');
-const PORT = process.env.PORT
+const PORT = process.env.PORT;
 
 app.use(cors());
 
